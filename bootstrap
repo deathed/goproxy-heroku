@@ -4,5 +4,5 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy socks -t ws -p “0.0.0.0:8080”
+./proxy http -p :$PORT -t ws --local-ws-password pass
 
