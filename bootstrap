@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy socks -p :$PORT -t ws
+./proxy socks -p :8080 -t ws
